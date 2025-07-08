@@ -11,7 +11,7 @@
      return splitnum.length;
 
    }
-    let numbers= 6234567890
+    let numbers= -2345
     // const result = findNumberofDigits(numbers);
     //  console.log(result)
 
