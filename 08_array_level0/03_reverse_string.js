@@ -24,4 +24,4 @@ var reverseString2 = function(s) {
 
 };
 
- console.log(reverseString2(s))
+ console.log(reverseString2(s));
