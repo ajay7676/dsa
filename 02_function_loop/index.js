@@ -28,14 +28,14 @@
 
 // create a fuunction to check if number is Even or odd
 
-function checkEvenOdd(number) {
-  if (number % 2 === 0) {
-    console.log(`${number} is Even Number`);
-  } else {
-    console.log(`${number} is Odd Number`);
-  }
-}
+// function checkEvenOdd(number) {
+//   if (number % 2 === 0) {
+//     console.log(`${number} is Even Number`);
+//   } else {
+//     console.log(`${number} is Odd Number`);
+//   }
+// }
 
-checkEvenOdd(14);
-checkEvenOdd(7);
-checkEvenOdd(7343333674);
+// checkEvenOdd(14);
+// checkEvenOdd(7);
+// checkEvenOdd(7343333674);
