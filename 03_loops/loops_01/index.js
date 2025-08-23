@@ -70,10 +70,10 @@ function findSmallestElement(arr4){
 
 // Write a function  to find the second largest number
 
-let arr5=[4,9,0,2,8,7,1];
+let arr5=[4,9,0,2,8,12,7,12,1];
 
 function findSecondLargestNum(arr5){
-
+     if(arr5.length < 2)return null;
     let firstLargest = -Infinity;
     let secondLargest = -Infinity;
 
@@ -81,7 +81,7 @@ function findSecondLargestNum(arr5){
          if(arr5[i] > firstLargest){
             secondLargest = firstLargest;
             firstLargest = arr5[i];
-         }else if(arr5[i] > secondLargest && arr5 !== firstLargest){
+         }else if(arr5[i] > secondLargest && arr5[i] !== firstLargest){
             secondLargest = arr5[i]
          }
     } 
